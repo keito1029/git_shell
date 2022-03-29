@@ -11,5 +11,9 @@ Reduce the process of pushing to github
 ## how to use  
   
 ```
-$ sh ~/export_push.sh ~/"your push or pull directory path"  
+$ sh ~/git_shell/export_push.sh ~/"your push or pull directory path"  
 ```
+
+* https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+* https://qiita.com/0uts1de/items/7eb13fea6ac5f02da44b 
+> おまけ　netrcより
