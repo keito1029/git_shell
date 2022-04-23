@@ -54,10 +54,10 @@ $ sh ~/git_shell/reset.sh ~/"your push or pull directory path"
     
 ## Advice
 
-* When push too big files
+* When push too big files  
 You have to rename the directory you want to push. After cloning the repository before renaming it, it is better to make the file smaller and delete the original directory.
 
-* When you want to copy a remote repository but import.sh does not work
+* When you want to copy a remote repository but import.sh does not work  
 You should use reset.sh
 
   
