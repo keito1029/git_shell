@@ -1,2 +1,3 @@
 #!/bin/sh
-cd ~/git_shell ; pwd ; chmod 777 *.sh ; chown -R $(whoami):$(whoami) *.sh ; ln -sfv $(pwd)/*.sh $HOME/ ;pwd 
+cd $HOME/git_shell && pwd && chmod 777 *.sh && chown -R $(whoami):$(whoami) *.sh && ls *.sh | grep -v install | xargs -I Link ln -sfv $(pwd)/Link $HOME/ && pwd 
+
