@@ -34,7 +34,7 @@ $ sh ~/git_shell/import_pull.sh ~/"your push or pull directory path"
 ## merge.sh           
         
 When you want to merge different device edit with local edit, you can import remote repository from any directory.    
-	> https://kray.jp/blog/git-pull-rebase/  
+> https://kray.jp/blog/git-pull-rebase/  
     
 ```        
 $ sh ~/git_shell/merge.sh ~/"your push or pull directory path"        
@@ -46,7 +46,7 @@ $ sh ~/git_shell/merge.sh ~/"your push or pull directory path"
 	Local edits would disappear.    
 	    
 When you want to import remote repository, you can remove local edits from any directory.    
-	> https://www-creators.com/archives/1097  
+> https://www-creators.com/archives/1097  
     
 ```        
 $ sh ~/git_shell/reset.sh ~/"your push or pull directory path"        
