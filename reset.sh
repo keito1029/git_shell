@@ -1,4 +1,4 @@
 #!/bin/sh
-cd $1 ; git reset --hard HEAD ; cd -
+cd $1 ; (git reset --hard HEAD && echo SUCCESS) ; cd -
 
 
