@@ -7,10 +7,9 @@ This program reduces push work to github
 1. Create .netrc and [Token in password](https://qiita.com/0uts1de/items/7eb13fea6ac5f02da44b)          
 	> [おまけ](https://qiita.com/0uts1de/items/7eb13fea6ac5f02da44b#%E3%81%8A%E3%81%BE%E3%81%91)の項目を参照          
 
-# Issue
-* I do wanna to search for git and make it auto-commit
+# Search for git and auto-commit
 ```
-locate /home/keito/*/.git | grep -e \.git\$ | sed s/.git// | grep -iv beamer | grep -iv onetab | xargs -t -n 1 sh ~/git_shell/export_push_xargs.sh $1
+locate /home/keito/*/.git | grep -e \.git\$ | sed s/.git// | grep -iv beamer | grep -iv onetab | xargs -t -n 1 sh /home/keito/git_shell/export_push_xargs.sh $1 
 ```
           
 ## Changed from nano to vim      
