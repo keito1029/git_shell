@@ -19,13 +19,13 @@ fi
 pull_output=$(git pull origin "$branch" -f 2>&1)
 status=$?
 
-# 失敗した場合にのみ通知
-if [ $status -ne 0 ]; then
-    message="Git pull failed on branch $branch at $(date). Error details:\n$pull_output"
-    # wallコマンドで全てのユーザーに通知
-    echo -e "$message" | wall
-    notify-send "Git Pull Notification" "$message"
-fi
+## 失敗した場合にのみ通知
+#if [ $status -ne 0 ]; then
+#    message="Git pull failed on branch $branch at $(date). Error details:\n$pull_output"
+#    # wallコマンドで全てのユーザーに通知
+#    echo -e "$message" | wall
+#    notify-send "Git Pull Notification" "$message"
+#fi
 
 # 元のディレクトリに戻る
 cd - || exit
